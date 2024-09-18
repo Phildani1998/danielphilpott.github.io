@@ -1,3 +1,72 @@
 theme: jekyll-theme-minimal
 title: Daniel's homepage
-description: Bookmark this page to keep an eye on my project's, achievements, and other items uploaded here!
+description: Bookmark this page to keep an eye on my projects, achievements, and other items uploaded here!
+
+title: "Developer Portfolio"
+description: "Portfolio and blog of a project manager and aspiring software developer."
+baseurl: ""
+url: "https://danielphilpott.github.io"
+
+name: "Daniel Philpott"
+email: "danielphilpott@u.boisestate.edu"
+social_links:
+  github: "https://github.com/Phildani1998"
+  linkedin: "https://www.linkedin.com/in/daniel-philpott-0b0a6b2a1/"
+
+theme: minimal-mistakes-jekyll
+logo: "/assets/images/logo.png"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author: "Daniel Philpott"
+
+navbar:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "About"
+    url: "/about/"
+  - title: "Resume"
+    url: "/resume/"
+
+paginate: 5
+
+seo:
+  title: "Daniel Philpott"
+  description: "Project Manager and aspiring Software Developer"
+  author: "Daniel Philpott"
+  social:
+    - name: "GitHub"
+      link: "https://github.com/Phildani1998"
+    - name: "LinkedIn"
+      link: "https://www.linkedin.com/in/daniel-philpott-0b0a6b2a1/"
+
+footer:
+  copyright: "&copy; 2024 Your Name. All rights reserved."
+  links:
+    - title: "GitHub"
+      url: "https://github.com/Phildani1998"
+    - title: "LinkedIn"
+      url: "https://www.linkedin.com/in/daniel-philpott-0b0a6b2a1/"
+
+
+minimal_mistakes_skin: "air"
+
+markdown: kramdown
+highlighter: rouge
+
+google_analytics: UA-XXXXXXXX-X
