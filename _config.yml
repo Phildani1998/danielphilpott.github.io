@@ -1,7 +1,7 @@
 remote_theme: "mmistakes/minimal-mistakes"
 title: "Daniel's Developer Portfolio"
 description: "Bookmark this page to keep an eye on my projects, achievements, and other items uploaded here!"
-baseurl: ""
+baseurl: ""  # Leave empty if hosted at root, otherwise specify a subpath.
 url: "https://danielphilpott.github.io"
 
 name: "Daniel Philpott"
@@ -61,5 +61,3 @@ minimal_mistakes_skin: "air"
 
 markdown: kramdown
 highlighter: rouge
-
-google_analytics: UA-XXXXXXXX-X  # Replace with actual ID or remove
