@@ -13,9 +13,6 @@ social_links:
   github: "https://github.com/Phildani1998"
   linkedin: "https://www.linkedin.com/in/daniel-philpott-0b0a6b2a1/"
 
-theme: minimal-mistakes-jekyll
-logo: "/assets/images/logo.png"
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
