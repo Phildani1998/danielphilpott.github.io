@@ -1,4 +1,4 @@
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 title: Daniel's homepage
 description: Bookmark this page to keep an eye on my projects, achievements, and other items uploaded here!
 
