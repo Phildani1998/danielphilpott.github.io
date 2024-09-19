@@ -1,9 +1,6 @@
 remote_theme: "mmistakes/minimal-mistakes"
-title: Daniel's homepage
-description: Bookmark this page to keep an eye on my projects, achievements, and other items uploaded here!
-
-title: "Developer Portfolio"
-description: "Portfolio and blog of a project manager and aspiring software developer."
+title: "Daniel's Developer Portfolio"
+description: "Bookmark this page to keep an eye on my projects, achievements, and other items uploaded here!"
 baseurl: ""
 url: "https://danielphilpott.github.io"
 
@@ -53,17 +50,16 @@ seo:
       link: "https://www.linkedin.com/in/daniel-philpott-0b0a6b2a1/"
 
 footer:
-  copyright: "&copy; 2024 Your Name. All rights reserved."
+  copyright: "&copy; 2024 Daniel Philpott. All rights reserved."
   links:
     - title: "GitHub"
       url: "https://github.com/Phildani1998"
     - title: "LinkedIn"
       url: "https://www.linkedin.com/in/daniel-philpott-0b0a6b2a1/"
 
-
 minimal_mistakes_skin: "air"
 
 markdown: kramdown
 highlighter: rouge
 
-google_analytics: UA-XXXXXXXX-X
+google_analytics: UA-XXXXXXXX-X  # Replace with actual ID or remove
